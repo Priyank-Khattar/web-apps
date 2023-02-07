@@ -1,0 +1,15 @@
+<h1> Tacos Page is here </h1>
+
+<% 
+tacos = ["Carnitas", "Taco2", "Fish", "Mushroom"]
+%>
+
+<p> There are <%= tacos.count%> tacos. They are: </p>
+
+<ul>
+    <% for taco in tacos %>
+        <li> <%= taco %> </li>
+    <% end %>
+</ul>
+
+<!-- This is an HTML comment -->
